@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <NumberPicker
+        android:id="@+id/numberPicker_synth_ttlssel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/button_synth_twinkle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_twinklelong"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_synth_a"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:text="A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_bb"
+        android:layout_width="48dp"
+        android:layout_height="36dp"
+        android:text="B♭"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_a" />
+
+    <Button
+        android:id="@+id/button_synth_b"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:text="B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_bb" />
+
+    <Button
+        android:id="@+id/button_synth_c"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        android:text="C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_b" />
+
+    <Button
+        android:id="@+id/button_synth_cs"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:text="C#"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_c" />
+
+    <Button
+        android:id="@+id/button_synth_d"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        android:text="D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_cs" />
+
+    <Button
+        android:id="@+id/button_synth_ds"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:text="D#"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_d" />
+
+    <Button
+        android:id="@+id/button_synth_e"
+        android:layout_width="49dp"
+        android:layout_height="37dp"
+        android:text="E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_ds" />
+
+    <Button
+        android:id="@+id/button_synth_f"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
+        android:text="F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_e" />
+
+    <Button
+        android:id="@+id/button_synth_fs"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:text="F#"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_f" />
+
+    <Button
+        android:id="@+id/button_synth_gs"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:text="G#"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_bb"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_g" />
+
+    <Button
+        android:id="@+id/button_synth_g"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="G"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Scale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_highA"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:text="High A"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_g"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_highBb"
+        android:layout_width="89dp"
+        android:layout_height="37dp"
+        android:text="High B♭"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_gs"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highA" />
+
+    <Button
+        android:id="@+id/button_synth_highB"
+        android:layout_width="75dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:text="High B"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_b"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highBb" />
+
+    <Button
+        android:id="@+id/button_synth_highC"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="44dp"
+        android:text="High C"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_c"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highB" />
+
+    <Button
+        android:id="@+id/button_synth_highCs"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="44dp"
+        android:text="High C#"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_cs"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highC" />
+
+    <Button
+        android:id="@+id/button_synth_highD"
+        android:layout_width="89dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="44dp"
+        android:text="High D"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_d"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highCs" />
+
+    <Button
+        android:id="@+id/button_synth_highDs"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="52dp"
+        android:text="High D#"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_ds"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highD" />
+
+    <Button
+        android:id="@+id/button_synth_highE"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="44dp"
+        android:text="High E"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_e"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highDs" />
+
+    <Button
+        android:id="@+id/button_synth_highF"
+        android:layout_width="71dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:text="High F"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_f"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highE" />
+
+    <Button
+        android:id="@+id/button_synth_highFs"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:text="High F#"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_fs"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highF" />
+
+    <Button
+        android:id="@+id/button_synth_highG"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:text="High G"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highA"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_highGs"
+        android:layout_width="84dp"
+        android:layout_height="39dp"
+        android:text="High G#"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highBb"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highG" />
+
+    <Button
+        android:id="@+id/button_synth_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Long Scale"
+        app:layout_constraintBottom_toTopOf="@+id/button_synth_scale"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <NumberPicker
+        android:id="@+id/numberPicker_synth_numbersel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_fs" />
+
+
+    <NumberPicker
+        android:id="@+id/numberPicker_synth_notesel"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/numberPicker_synth_numbersel"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highFs" />
+
+
+    <Button
+        android:id="@+id/button_synth_numbernote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Note"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberPicker_synth_notesel" />
+
+    <Button
+        android:id="@+id/button_synth_twinkle"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TTLS"
+        app:layout_constraintBottom_toTopOf="@+id/button_synth_long"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_twinklelong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:text="TTLS: Extended!!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highDs"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_synth_ttlscustom"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Custom Twinkle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/numberPicker_synth_ttlssel"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highF"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highGs"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <CheckBox
+        android:id="@+id/checkBox_synth_middlettls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Toggle Middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_synth_twinkle"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highFs"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_ttlscustom"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/button_synth_silscra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Silver Scrapes"
+        app:layout_constraintBottom_toTopOf="@+id/button_synth_twinklelong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_synth_highC"
+        app:layout_constraintTop_toBottomOf="@+id/button_synth_highGs" />
+
+
+</android.support.constraint.ConstraintLayout>
